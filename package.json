@@ -1,0 +1,12 @@
+{
+  "name": "lunar-tls-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tes kecil: apakah TLS impersonate bisa menembus 429 CDN vidlink?",
+  "main": "test.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node test.js" },
+  "dependencies": {
+    "node-tls-client": "^2.0.0"
+  }
+}
